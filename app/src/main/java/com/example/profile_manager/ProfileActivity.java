@@ -102,7 +102,6 @@ public class ProfileActivity extends AppCompatActivity {
     protected void LoadNewP(View view) {
         Intent i = new Intent(Intent.ACTION_PICK,android.provider.MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         startActivityForResult(i, RESULT_LOAD_IMAGE);
-
         }
 
     @Override
